@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.background{
+    width: 100%;
+    min-height: 100vh;
+    background: url(../imgs/bgc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 450px;
+    height: auto;
+    padding: 50px 0;
+    backdrop-filter: blur(100px);
+    box-shadow: 0 0 100px #79beff;
+    border-radius: 50px;
+}
+.header{
+    width: 450px;
+}
+.header img{
+    width: 40%;
+    display: block;
+    margin: auto;
+    /* border: 5px solid; */
+    border-radius: 50%;
+}
+.header h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 15px 0 40px 0;
+    font-weight: 800;
+}
+.form{
+    width: 350px;
+    margin: auto;
+}
+.form input{
+    width: 92.5%;
+    margin-bottom: 15px;
+    padding: 20px 0;
+    border: none;
+    border-radius: 50px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .4s all ease-in-out;
+}
+
+.form input:focus{
+    outline: none;
+    box-shadow: 0 0 30px #40b9ff;
+}
+.submit{
+    width: 350px;
+}
+.submit input{
+    width: 100%;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0;
+    border: none;
+    transition: .6s all ease-in-out;
+}
+.submit input:hover{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#005bea+0,01c2f9+100 */
+background: linear-gradient(to right,  #005bea 0%,#01c2f9 100%);
+ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+.forgot_passowerd{
+    text-align: center;
+    margin-top: 20px;
+}
+.forgot_passowerd a{
+    color: #6e6e6e;
+    display: block;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+}
+.new_account a{
+    text-align: center;
+    color: #6e6e6e;
+    display: block;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+}
+.forgot_passowerd a:hover{
+    color: white;
+}
+
+.new_account a:hover{
+    color: white;
+}
